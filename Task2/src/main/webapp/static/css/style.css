@@ -1,0 +1,200 @@
+head, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*text-align: center;*/
+    background: #F5FFFA;
+    position: relative;
+
+}
+
+h1 {
+    padding: 5px 0;
+    margin: auto;
+}
+
+.header {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: rgb(219, 233, 234);
+
+}
+
+.topPanel {
+    height: 30px;
+    width: auto;
+    padding: 10px;
+    background: rgb(221, 195, 162);
+}
+
+.treeview {
+    height: 100%;
+    width: 80%;
+    margin-right: -2px;
+    float: left;
+    background: #fff5d7;
+}
+
+.optionButton {
+    padding: 5px;
+    margin-right: 50px;
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    height: 20px;
+    background: rgb(219, 233, 234);
+    cursor: pointer;
+}
+.optionButton:hover{
+   box-shadow: black 1px 1px 5px 1px;
+}
+
+#downloadDB-page, .inputName-page {
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    box-shadow: black 2px 1px 4px;
+    border-radius: 5px;
+    z-index: 100;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #d9c89d;
+    display: none;
+}
+#downloadDB-page h4 {
+    margin: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#downloadDB-page h4:hover {
+    background: #bdaf8b;
+}
+
+.inputName-page {
+    width: 200px;
+    height: 110px;
+
+}
+
+.l-file {
+    cursor: pointer;
+}
+
+.f-name {
+    font-size: 10pt !important;
+    position: absolute;
+    bottom: -13px;
+    left: -3px;
+    width: 32px;
+    padding: 0 2px;
+    margin: 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.file {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    background: none;
+    font-family: ".SF NS Mono", serif;
+    font-size: 16px;
+}
+
+label {
+    font-family: ".SF NS Mono", serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.loader {
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    height: 24px;
+    width: 42px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.options {
+    width: 250px;
+    margin: 20px;
+    display: none;
+    position: fixed;
+    z-index: 100;
+
+}
+.options li{
+   /*// border-bottom: 1px solid black;*/
+}
+.menu, .menu-drop {
+    margin: 1px;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #bbbebc;
+    border-radius: 1px;
+    background: #d9c89d;
+}
+
+.menu-drop {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0;
+    display: none;
+}
+
+.menu a {
+    color: black;
+    padding: 5px;
+    display: block;
+}
+
+.menu a:hover {
+    background: #bbbebc;
+}
+
+.menu-list {
+    position: relative;
+}
+
+.menu-list:hover .menu-drop {
+    display: block;
+}
+
+.arrow-opt {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.podlogka {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: 50;
+    display: none;
+}

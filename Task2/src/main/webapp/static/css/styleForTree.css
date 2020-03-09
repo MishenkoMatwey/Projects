@@ -1,0 +1,121 @@
+.treeview {
+    padding: 0;
+    clear: both;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.treeview * {
+    font-size: 100.1%;
+}
+
+.treeview ul {
+    overflow: visible;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 1.5em 0;
+    list-style-type: none;
+}
+
+.treeview ul ul {
+    overflow: visible;
+    width: auto;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0.75em;
+}
+
+
+
+.treeview li.cl ul {
+    display: none;
+}
+
+.treeview li {
+    margin: 0;
+    padding: 0;
+}
+
+.treeview li li {
+    margin: 0 0 0 2.25em;
+    border-left: 1px dotted;
+    padding: 0;
+}
+
+.treeview li div {
+    position: relative;
+    height: 3em;
+    min-height: 16px;
+    width: 2em;
+}
+
+.treeview li li div {
+    border-bottom: 1px dotted;
+}
+
+.treeview li p {
+    position: absolute;
+    z-index: 1;
+    top: 2em;
+    left: 1.75em;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px dashed;
+    padding: 0;
+}
+
+.treeview span {
+    padding: 0.1em 0.2em;
+    white-space: nowrap;
+/ / height: 1 px;
+}
+
+.treeview img.i {
+    border-right: 2px solid;
+    border-bottom: 0.5em solid;
+    margin-bottom: -0.5em;
+    vertical-align: middle;
+}
+
+.treeview span.sc {
+    position: absolute;
+    top: 0.5em;
+    margin-left: 5px;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.treeview ul.l,
+.treeview li p,
+.treeview img.i {
+    border-color: #f5f5ea;
+}
+
+.treeview ul li li,
+.treeview ul li li div {
+    border-color: #999999;
+}
+
+.treeview span,
+.treeview span.sc,
+.treeview span.sc:hover {
+    color: #000000;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.spinner {
+    width: 30px;
+    height: 30px;
+    border: 6px solid #000;
+    border-left-color: #333;
+    border-right-color: transparent;
+    border-bottom-color: #555;
+    border-radius: 100%;
+    animation: spin 600ms infinite linear;
+}
