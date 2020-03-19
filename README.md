@@ -20,4 +20,4 @@ Task2<br>
 ∙ организовано хранение данных в БД;<br>
 ∙ организована загрузка данных из БД;<br>
 ∙ организована загрузка данных из файла (список смежности, первой вершиной которого будет корневая папка).<br>
-Используемые технологии: java, JDBC, java Servlets, JSP, SQL, MySQL, Apache Maven, Apache Tomcat.
+Используемые технологии: java, JDBC, java Servlets, JSP, SQL, MySQL, Apache Maven, Apache Tomcat, Ajax, jQuery, html, css, js.
